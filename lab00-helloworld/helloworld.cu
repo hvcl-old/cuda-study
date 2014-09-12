@@ -20,12 +20,12 @@ int main(int argc, char** argv)
 	
 	///Launch 1 block , each block has 3 threads
 	// printf("Launch 1 block , each block has 3 threads\n");
-	// helloworld<<<  /*TODO*/, 3 >>>();
+	// helloworld<<<  1, /*TODO*/ >>>();
 	// printf("\n");
 	
 	///Launch 2 blocks, each block has 1 thread
 	// printf("Launch 2 blocks, each block has 1 thread \n");
-	// helloworld<<<  /*TODO*/, 3 >>>();
+	// helloworld<<<  /*TODO*/, 1 >>>();
 	// printf("\n");
 	
 	///Launch 2 blocks, each block has 3 threads
