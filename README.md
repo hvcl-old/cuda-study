@@ -5,9 +5,9 @@ Cuda Weekly Study
 
 Basic git commands
 =======
-git clone https://github.com/hvcl/cuda
+git clone https://github.com/hvcl/cuda-study
 
-git remote add origin https://github.com/hvcl/cuda
+git remote add origin https://github.com/hvcl/cuda-study
 
 git pull
 
