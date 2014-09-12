@@ -10,6 +10,9 @@ void helloworld()
 
 int main(int argc, char** argv)
 {
+	/// Use the first GPU on the machine
+	cudaSetDevice(0);
+	
 	///Launch 1 block , each block has 1 thread 
 	printf("Launch 1 block , each block has 1 thread \n");
 	helloworld<<<  1, 1 >>>();
@@ -30,5 +33,7 @@ int main(int argc, char** argv)
 	// helloworld<<<  /*TODO*/, /*TODO*/ >>>();
 	// printf("\n");
 	
+	/// Why this? You can try to comment this one and see
+	cudaDeviceSynchronize(); 
 	return 0;
 }
