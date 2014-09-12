@@ -1,4 +1,4 @@
-Cuda Weekly Study
+CUDA Weekly Study
 ====
 * quantm@unist.ac.kr
 * woslakfh1@unist.ac.kr
