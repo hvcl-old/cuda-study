@@ -3,9 +3,9 @@ Lab00 Instruction
 ```bash
 nvcc -arch=sm_35 helloworld.cu -o helloworld
 ```
-cudaSetDevice()
-numBlocksPerGrid
-numThreadsPerBlock
-kernel
-cudaDeviceSynchronize()
+* cudaSetDevice()
+* numBlocksPerGrid
+* numThreadsPerBlock
+* kernel
+* cudaDeviceSynchronize()
 
